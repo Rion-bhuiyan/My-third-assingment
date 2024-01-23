@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-third-assingment</title>
+    <!-- tailwind and daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Manrope google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+            ;
+        }
+    </style>
+
+</head>
+
+<body class="font-manrope">
+    <header class="container mx-auto">
+        <nav class="bg-white-500 pt-2 lg:pt-4 mt-15 pl-4">
+            <div class="container mx-auto flex justify-between items-center">
+              <div class="text-[#131318] font-extrabold text-xl lg:text-4xl">
+                <a href="#" class="">Hockey<span class="text-[#FF4240]">’</span>s</a>
+              </div>
+
+                <div class="">
+                    <div class="flex flex-row text-base font-extrabold space-x-2 lg:space-x-8 text-center">
+                        <div>
+                            <a href="#" class="text-[#FF4240]">Home</a>
+                        </div>
+                        <div class="text-[#424247] space-x-2 lg:space-x-8 font-normal">
+                            <a href="#" class="">About</a>
+                            <a href="#" class="">Pages</a>
+                            <a href="#" class="">Blog</a>
+                            <a href="#" class="">Contact</a>
+    
+                        </div>
+    
+    
+                    </div>
+                </div>
+                <button class="btn btn-error font-bold text-[#FFF] text-xl">Get Ticket</button>
+            </div>
+        </nav>
+      
+            <div class="carousel w-full mt-5 lg:mt-12">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="../Images/1.png" class="p-1 w-full h-[75%]" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="../Images/3.png" class="w-full h-[75%]" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
